@@ -183,10 +183,7 @@ img {
   line-height: 1.36;
   letter-spacing: 0.06em;
 }
-/*СЕКЦИЯ ПРЕИМУЩЕСТВА*/
-.we-doing {
-  background: #e5e5e5;
-}
+
 .section-advantages {
   background-color: white;
   padding-top: 94px;
@@ -226,12 +223,23 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+/*СЕКЦИЯ ПРЕИМУЩЕСТВА*/
+.we-doing {
+  background: #e5e5e5;
+}
 .we-doing {
   background-color: white;
   padding-top: 0;
   padding-bottom: 94px;
 }
-
+.sect-header {
+  color: var(--black-text);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
 .advantages-img .img-items {
   flex-basis: calc(100% / 3);
 }
@@ -289,8 +297,8 @@ img {
 }
 /*ФУТЕР*/
 .footer {
+  padding: 60px 0;
   background-color: var(--hero-background);
-  padding-top: 60px;
 }
 
 .footer a {
