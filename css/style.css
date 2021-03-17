@@ -184,6 +184,9 @@ img {
   letter-spacing: 0.06em;
 }
 /*СЕКЦИЯ ПРЕИМУЩЕСТВА*/
+.we-doing {
+  background: #e5e5e5;
+}
 .section-advantages {
   background-color: white;
   padding-top: 94px;
@@ -236,8 +239,8 @@ img {
 .img-items:not(:last-child) {
   margin-right: 30px;
 }
-
-.sect-header {
+/*СЕКЦИЯ КОМАНДА*/
+.team-title {
   color: var(--black-text);
   font-weight: 700;
   font-size: 36px;
@@ -245,9 +248,11 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
 }
-/*СЕКЦИЯ КОМАНДА*/
+
 .team {
-  background-color: var(--bg-color);
+  background-color: var(--team-background);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-container {
   text-align: center;
